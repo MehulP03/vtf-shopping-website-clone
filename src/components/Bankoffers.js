@@ -33,7 +33,13 @@ function Bankoffers() {
 
   return (
     <Container maxWidth={'lg'}>
-      <Typography component='div' textAlign={'ceneter'} fontSize={'24px'}>Bank Offers</Typography>
+      <CardActionArea>
+        <Card>
+      <img src='https://www.bigbasket.com/media/uploads/banner_images/cp_pbs_entrypoint_1130x400_060622.jpg'
+      alt='advertisement' height={399} width={1128}/>
+      </Card>
+      </CardActionArea>
+      <Typography component='div' textAlign={'ceneter'} fontSize={'24px'} marginTop={3}>Bank Offers</Typography>
       <hr />
       <Grid container spacing={2}>
         {cards}
