@@ -39,7 +39,7 @@ function Bankoffers() {
       alt='advertisement' height={399} width={1128}/>
       </Card>
       </CardActionArea>
-      <Typography component='div' textAlign={'ceneter'} fontSize={'24px'} marginTop={3}>Bank Offers</Typography>
+      <Typography component='div' textAlign={'center'} fontSize={'24px'} marginTop={3}>Bank Offers</Typography>
       <hr />
       <Grid container spacing={2}>
         {cards}

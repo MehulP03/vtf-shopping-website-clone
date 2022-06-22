@@ -14,7 +14,6 @@ const SliderImg = (props) => {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ p: 6 }}>
       <Slider {...CarPos}>
 
         <CardActionArea>
@@ -41,7 +40,6 @@ const SliderImg = (props) => {
           <img src="//www.bigbasket.com/media/uploads/banner_images/hp_b_h_GM-duper-deals_460-250522.jpg" alt="carousel-6" />
         </CardActionArea>
       </Slider>
-    </Container>
   );
 };
 

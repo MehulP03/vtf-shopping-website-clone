@@ -42,7 +42,7 @@ function BrandStore() {
 
   return (
     <Container maxWidth={'lg'} sx={{marginTop: 5}}>
-      <Typography component='div' textAlign={'ceneter'} fontSize={'24px'}>Brand Store</Typography>
+      <Typography component='div' textAlign={'center'} fontSize={'24px'}>Brand Store</Typography>
       <hr />
       <Grid container spacing={2}>
         {cards}

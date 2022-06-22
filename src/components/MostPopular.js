@@ -35,7 +35,7 @@ function MostPopular() {
     
     return (
     <Container maxWidth={'lg'} sx={{marginTop: 5}}>
-      <Typography component='div' textAlign={'ceneter'} fontSize={'24px'}>Most Popular</Typography>
+      <Typography component='div' textAlign={'center'} fontSize={'24px'}>Most Popular</Typography>
       <hr />
       <Grid container spacing={2}>
         {cards}

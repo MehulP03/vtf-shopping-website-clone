@@ -42,7 +42,7 @@ function HomeandKitchen() {
     
   return (
     <Container maxWidth={'lg'} sx={{marginTop: 5}}>
-      <Typography component='div' textAlign={'ceneter'} fontSize={'24px'}>Home and Kitchen</Typography>
+      <Typography component='div' textAlign={'center'} fontSize={'24px'}>Home and Kitchen</Typography>
       <hr />
       <Grid container spacing={2}>
         {cards}

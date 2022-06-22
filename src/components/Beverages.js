@@ -5,7 +5,7 @@ function Beverages() {
     return (
 
         <Container maxWidth={'lg'} sx={{ marginTop: 5 }}>
-            <Typography component='div' textAlign={'ceneter'} fontSize={'24px'}>Beverages</Typography>
+            <Typography component='div' textAlign={'center'} fontSize={'24px'}>Beverages</Typography>
             <hr />
             <Grid container spacing={2}>
                 <Grid item xs={6}>
