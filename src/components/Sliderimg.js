@@ -14,7 +14,7 @@ const SliderImg = (props) => {
   };
 
   return (
-      <Slider {...CarPos}>
+      <Slider {...CarPos} style={{paddingTop:'70px'}}>
 
         <CardActionArea>
           <img src="//www.bigbasket.com/media/uploads/banner_images/hp_fom_m_bbpl-staples_460_210622_Bangalore.jpg" alt="carousel-1" />
