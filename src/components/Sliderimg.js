@@ -1,6 +1,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Container, CardActionArea } from "@mui/material";
+import { CardActionArea } from "@mui/material";
 import Slider from "react-slick";
 
 const SliderImg = (props) => {
