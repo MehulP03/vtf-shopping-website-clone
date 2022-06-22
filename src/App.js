@@ -1,6 +1,7 @@
 import './App.css';
 import Bankoffers from './components/Bankoffers';
 import MostPopular from './components/MostPopular';
+import SnacksStore from './components/SnacksStore';
 import TopOffers from './components/TopOffers';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
      <Bankoffers/>
      <MostPopular />
      <TopOffers />
+     <SnacksStore/>
     </div>
   );
 }
